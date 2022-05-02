@@ -14,8 +14,8 @@
 }
 @media screen and (min-width: 768px) {
     .receta__boton{
-        margin-left:4rem ;
-        padding: 1rem;
+        margin:0.5rem ;
+        padding: 0.75rem;
     }
     
 }
