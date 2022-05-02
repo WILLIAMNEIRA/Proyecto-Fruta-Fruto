@@ -1,0 +1,104 @@
+.pie-de-pagina{
+    display: flex;
+    background-color: #e5e5e5;
+    font-family: pacifico,cursive;
+    color:#8d0606;
+
+}
+.contactanos{
+    margin-left: 10%;
+}
+
+.pie-de-pagina-redes__sociales {
+  padding: 2rem 1rem;
+}
+
+.redes__sociales--facebook {
+  background: url(../../img/redesSociales/facebookNegro.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-left: 10px;
+  width: 50px;
+}
+
+.redes__sociales--facebook:hover {
+  background: url(../../img/redesSociales/facebook.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-left: 10px;
+  width: 50px;
+}
+
+.redes__sociales--instagram {
+  background: url(../../img/redesSociales/instagramNegro.png);
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+
+.redes__sociales--instagram:hover {
+  background: url(../../img/redesSociales/instagram.png);
+  background-repeat: no-repeat;
+}
+
+.redes__sociales--linkedin {
+  background-image: url(../../img/redesSociales/linkedinNegro.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-left: 10px;
+  width: 50px;
+}
+
+.redes__sociales--linkedin:hover {
+background-image: url(../../img/redesSociales/linkedin.png);
+  height: 50px;
+  width: 50px;
+}
+
+.redes__sociales--git {
+  background: url(../../img/redesSociales/gitNegro.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  padding-left: 10px;
+  width: 50px;
+}
+
+.redes__sociales--git:hover {
+  background: url(../../img/redesSociales/git.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 0) {
+    .contactanos{
+        font-size:1rem ;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .contactanos{
+        font-size:2.1rem ;
+    }
+    
+}
+@media screen and (min-width: 0) {
+    .pie-de-pagina-redes__sociales{
+        display: flex;
+        
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .pie-de-pagina-redes__sociales{
+        display: flex;
+        margin-left: 50%
+       
+    }
+    
+}
+
+
